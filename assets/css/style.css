@@ -1,0 +1,156 @@
+.Game{
+    background-color: rgb(62, 153, 206);
+    position: absolute;
+    margin-left: calc(50% - 375px);
+    margin-top: 120px;
+    width: 750px;
+    height: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#frame1{
+    position: relative;
+    display: inline-block;  
+    left: 10px;
+    top: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(34, 73, 107);
+    border-radius: 25px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    /* background-image: url(/assets/image/items/peter.png); */
+    background-position:center;
+    
+}
+#frame2{
+    position: relative;
+    display: inline-block;
+    left: 30px;
+    top: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(34, 73, 107);
+    border-radius: 25px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#frame3{
+    position: relative;
+    display: inline-block;
+    left: 50px;
+    top: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(34, 73, 107);
+    border-radius: 25px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#frame4{
+    position: relative;
+    display: inline-block;
+    left: 70px;
+    top: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(34, 73, 107);
+    border-radius: 25px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#frame5{
+    position: relative;
+    display: inline-block;
+    left: 744px;
+    top: -144px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(34, 73, 107);
+    border-radius: 25px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#selecter{
+    background-color: rgb(170, 162, 162);
+    position: absolute;
+    margin-top: -10px;
+    margin-left: calc(50% - 7px);
+    width: 14px;
+    height: 220px;
+    z-index:3;
+    border-radius: 4px;
+}
+#button{
+    background-color: #1586dd;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: calc(50% - 100px);
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align:center;
+    line-height: 50px;
+    background-image: url(/assets/image/PlayButton.png);
+    background-size: 100px 50px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: .2s;
+}
+
+#button:hover{
+    transform: scale( 1.05);
+    background-image: url(/assets/image/PlayButton2.png);
+}
+#modalMenu{
+    display: none;
+    position: relative;
+    top: 100px;
+    left: calc(50% - 177px);
+    /* left: 375px; */
+    width: 356px;
+    height: 316px;
+    background-color: rgba(134, 215, 177, 0.815);
+    border-radius: 12px;
+    z-index: 4;
+    transition: 2s;
+    
+}
+#itemFrame{
+    position: relative;
+    display: inline-block;
+    left: calc(50% - 80px);
+    top: 24px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(34, 73, 107);
+    border-radius: 25px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#backButton{
+    position: relative;
+    /* display: inline-block; */
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    left: calc(50% - 60px);
+    top: 60px;
+    background-color: rgb(195, 226, 82);
+    text-align: center;
+    cursor: pointer;
+    transition: .1s;
+    background-color: #1586dd;
+    color:#ffffff;
+}
+#backButton:hover{
+    transform: scale( 1.05);
+    color:#d0ff00;
+}
