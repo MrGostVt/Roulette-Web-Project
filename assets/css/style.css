@@ -97,7 +97,7 @@
     cursor: pointer;
     text-align:center;
     line-height: 50px;
-    background-image: url(/assets/image/PlayButton.png);
+    background-image: url(./assets/image/PlayButton.png);
     background-size: 100px 50px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@
 
 #button:hover{
     transform: scale( 1.05);
-    background-image: url(/assets/image/PlayButton2.png);
+    background-image: url(./assets/image/PlayButton2.png);
 }
 #modalMenu{
     display: none;

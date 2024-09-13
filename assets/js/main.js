@@ -5,25 +5,25 @@ class Game{
         this.flagPos = 0;
         this.items = [
             {
-                img:'url(/assets/image/prizes/bmw.png)',
+                img:'url(./assets/image/prizes/bmw.png)',
                 chance: 10,
                 name: 'BMW',
                 id: 0,
             },
             {
-                img: 'url(/assets/image/prizes/ford.png)',
+                img: 'url(./assets/image/prizes/ford.png)',
                 chance: 15,
                 name: 'Ford',
                 id: 1,
             },
             {
-                img: 'url(/assets/image/prizes/audi.png)',
+                img: 'url(./assets/image/prizes/audi.png)',
                 chance: 25,
                 name: 'Audi',
                 id: 2,
             },
             {
-                img:'url(/assets/image/prizes/toyota.png)',
+                img:'url(./assets/image/prizes/toyota.png)',
                 chance: 50,
                 name: 'Camry',
                 id: 3,
